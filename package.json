@@ -1,0 +1,17 @@
+{
+  "name": "db-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor MCP para múltiples bases de datos (PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, SQLite) configuradas desde .env",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node scripts/db-mcp.mjs",
+    "list": "node scripts/db-mcp.mjs --list"
+  },
+  "dependencies": {
+    "@bytebase/dbhub": "1.5.1"
+  }
+}

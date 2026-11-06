@@ -1,0 +1,17 @@
+node_modules/
+
+# Secretos: nunca subir
+.env
+.env.*
+!.env.example
+CLAUDE.local.md
+*.pem
+*.key
+*.pfx
+
+# Configuración local de Claude Code (permisos y preferencias personales)
+.claude/settings.local.json
+
+# Logs y temporales
+*.log
+dbhub.toml
